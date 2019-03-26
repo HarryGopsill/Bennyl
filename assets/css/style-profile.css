@@ -1,0 +1,65 @@
+.profile__container {
+  width: 100vw;
+  max-width: 500px;
+  color: #ffffff; }
+
+.profile__title {
+  margin: 10px;
+  font-size: 30px; }
+
+.profile__text {
+  margin: 10px;
+  color: #969697;
+  font-size: 20px;
+  margin-bottom: 60px; }
+
+.profile__image {
+  width: 90vw;
+  max-width: 500px;
+  max-height: 330px;
+  height: 60vw;
+  margin-top: 40px;
+  -webkit-box-shadow: 1px 2px 161px -4px rgba(121, 0, 3, 0.5);
+  -moz-box-shadow: 1px 2px 161px -4px rgba(121, 0, 3, 0.5);
+  box-shadow: 1px 2px 161px -4px rgba(121, 0, 3, 0.5);
+  margin-bottom: 70px; }
+
+.profile__link-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  width: 80%;
+  justify-content: space-between; }
+
+.profile__link {
+  height: 30px;
+  width: 30px;
+  z-index: 1;
+  background-size: contain;
+  margin: 22px; }
+
+.profile__link--soundcloud {
+  background-image: url("../images/soundcloud_white.png"); }
+
+.profile__link--skiddle {
+  background-image: url("../images/ticket_white.png"); }
+
+.profile__link--facebook {
+  background-image: url("../images/twitter_white.png"); }
+
+.profile__link--label {
+  background-image: url("../images/soundcloud_white.png"); }
+
+@media only screen and (min-width: 1111px) {
+  .profile__container {
+    height: auto; }
+
+  .profile__image {
+    margin-top: 0px; }
+
+  .profile__link-container {
+    height: 100px; } }
+
+/*# sourceMappingURL=style-profile.css.map */

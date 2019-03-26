@@ -1,0 +1,183 @@
+.releases__container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.releases__tile{
+    height: 340px;
+    width: 340px;
+    margin: 42px;
+}
+
+
+.releases__tile--release1{
+    background-image: url("../images/release1.png");
+    background-size: cover;
+}
+
+.releases__tile--release2{
+    background-image: url("../images/release2.png");
+    background-size: cover;
+}
+
+.releases__tile--release3{
+    background-image: url("../images/release3.png");
+    background-size: cover;
+}
+
+.releases__tile--release4{
+    background-image: url("../images/release4.png");
+    background-size: cover;    
+}
+
+
+
+
+
+//modal
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    
+    
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: $black;
+    width: 300px;
+    height: 580px;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: solid 3px $white;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    color: $white;
+
+}
+
+.modal-body{
+
+}
+
+.modal__image{
+    height: 300px;
+}
+
+.modal__song-title{
+    margin-left: 25px;
+    font-size: 50px;
+    
+}
+.modal__song-artist{
+    margin-left: 25px;
+    font-size: 30px;
+    
+}
+.modal__song-platforms{
+    margin-top: 40px;
+    margin-left: 25px;
+    
+}
+
+.modal__logo-container{
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.modal__logo{
+    height: 50px;
+    margin: 20px;
+    
+}
+
+
+/* The Close Button */
+.close {
+    margin-right: 5px;
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+@media only screen and (min-width: 1111px) {
+    
+    .releases__container{
+         margin-top: -500px;
+    }
+    
+    
+    
+    //modal
+    
+    
+    .modal-content{
+        margin-top: 25vh;
+        border: 5px solid $white;
+        width: 700px;
+        height: 300px;
+    }
+    
+    .modal__song-title{
+         margin-left: 327px;
+        font-size: 60px;
+        width: 100%;
+        margin-top: -290px;
+    }
+    
+    .modal__song-artist{
+
+        margin-left: 330px;
+    }
+    
+    .modal__song-platforms{
+        margin-top: 40px;
+        margin-left: 330px;
+    }
+    
+    
+    .modal__logo-container{
+        margin-left: 307px;
+    }
+    
+    .modal__logo{
+        height:80px;
+    }
+    
+}
+    
+    
